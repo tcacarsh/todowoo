@@ -1,0 +1,9 @@
+curl -X "POST" http://127.0.0.1:8000/api/signup -H 'Content-Type: application/json' -d '{"username":"Paul","password":"TodoWoo1234"}'
+
+
+curl -X "POST" http://127.0.0.1:8000/api/login -H 'Content-Type: application/json' -d '{"username":"Paul","password":"TodoWoo1234"}'
+curl -X "POST" http://127.0.0.1:8000/api/login -H 'Content-Type: application/json' -d '{"username":"Paul1","password":"Todo1234"}'
+curl -X "POST" http://127.0.0.1:8000/api/login -H 'Content-Type: application/json' -d '{"username":"Paul2","password":"Todo1234"}'
+
+curl http://127.0.0.1:8000/api/todos -H 'Authorization: Token 8f2ea6ece96b3169cc6d6d3d8d80230e78f73d3e'
+

@@ -1,0 +1,7 @@
+"python.linting.pylintArgs": [
+    "--load-plugins", "pylint_django", "--error-only"
+],
+
+}
+"python.pythonPath": "/home/tcacarsh/virtualenv/myapp/3.6/bin/python3.6_bin"
+}
